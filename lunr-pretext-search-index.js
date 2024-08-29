@@ -10,11 +10,20 @@ var ptx_lunr_docs = [
   "body": "  My Website   copyright  "
 },
 {
+  "id": "sec-what",
+  "level": "1",
+  "url": "sec-what.html",
+  "type": "Section",
+  "number": "1.1",
+  "title": "What is \"discrete math\"?",
+  "body": " What is \"discrete math\"?  Text of section.  "
+},
+{
   "id": "sec-section-name",
   "level": "1",
   "url": "sec-section-name.html",
   "type": "Section",
-  "number": "1.1",
+  "number": "2.1",
   "title": "Binary",
   "body": " Binary  Text of section.  "
 },
