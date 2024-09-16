@@ -4,7 +4,39 @@
   <title> -- Introduction</title>
 
   <introduction>
-    <p> Text before the first section. </p>
+    <p> What is discrete math? </p>
+
+<p>First let's get a silly point of linguistic confusion out of the way.</p>
+
+<p>
+<b>discreet</b> (comparative: more discreet, superlative: most discreet)
+<ol>
+    <li>Respectful of privacy or secrecy; quiet; diplomatic.</li>
+<blockquote>
+        <p>With a discreet gesture, she reminded him to mind his manners.</p>
+        <p>John just doesn't understand that laughing at Mary all day is not very discreet.</p>
+</blockquote>
+    <li>Not drawing attention, anger or challenge; inconspicuous.</li>
+</ol>
+
+
+<p>versus</p>
+
+<p>
+<b> discrete</b> (comparative: more discrete, superlative: most discrete)
+<ol>
+    <li>Separate; distinct; individual; non-continuous.</li>
+    <li>That can be perceived individually and not as connected to, or part of something else.</li>
+</ol>
+<p>
+ (plus several other technical meanings)
+</p>
+
+<p>
+So, a discrete mathematician is not one who knows how to keep a secret, but rather someone
+who deals with mathematical entities that are distinct, separate, non-continuous.  The real numbers
+in the interval <m>(0,1)</m> lie in the realm of continuous math; the rational numbers in the same interval
+are a discrete collection. </p>
   </introduction>
 
   <!-- include sections -->
