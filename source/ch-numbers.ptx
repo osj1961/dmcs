@@ -8,8 +8,8 @@
   </introduction>
 
   <!-- include sections -->
-  <xi:include href="sec-binary.ptx" />
-  <xi:include href="sec-hex-octal.ptx" />
-  <xi:include href="sec-general.ptx" />
-  <xi:include href="sec-mod.ptx" />
+  <xi:include href="numbers/sec-binary.ptx" />
+  <xi:include href="numbers/sec-hex-octal.ptx" />
+  <xi:include href="numbers/sec-general.ptx" />
+  <xi:include href="numbers/sec-mod.ptx" />
 </chapter>
