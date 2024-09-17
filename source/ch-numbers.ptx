@@ -9,5 +9,5 @@
 
   <!-- include sections -->
   <xi:include href="sec-binary.ptx" />
-
+  <xi:include href="sec-hex-octal.ptx" />
 </chapter>
