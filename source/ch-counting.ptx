@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-counting" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title> <ndash/> Principles of counting</title>
+
+  <introduction>
+    <p> Of course, what we really mean to study in this chapter is not counting <foreign>per se</foreign>, 
+      but counting without <em>actually</em> counting<ellipsis/> </p>
+    <p> For instance if we want to know how old someone who was born in 1981 is in the year 2024, we could 
+      write down a longish list of numbers: 
+    </p>
+    <p> 1981, 1982, 1983, 1984, 1985, 1986, 1987, <ellipsis/> 2019, 2020, 2021, 2022, 2023, 2024</p>
+
+    <p> and then just count them all (so the dodge I just took by putting three dots in the middle wouldn't 
+      be cool),
+      or (and this definitely seems like less work) just do the subtraction <m>2024-1981 = 43</m>.</p>
+
+    <p> By the way, one of the approaches above gives a wrong answer. Which? </p>
+    </introduction>
+
+  <!-- include sections -->
+  <xi:include href="counting/rule0.ptx" />
+  <xi:include href="counting/multiplication.ptx" />
+  <xi:include href="counting/addition.ptx" />
+  <xi:include href="counting/perms.ptx" />
+  <xi:include href="counting/combs.ptx" />
+  <xi:include href="counting/multisets.ptx" />
+  
+  
+</chapter>

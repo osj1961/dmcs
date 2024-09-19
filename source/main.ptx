@@ -16,6 +16,8 @@
     <xi:include href="./ch-numbers.ptx" />
     <xi:include href="./ch-sets-logic.ptx" />
     <xi:include href="./ch-proofs.ptx" />
+    <xi:include href="./ch-counting.ptx" />
+
 
 
     <!-- Include backmatter -->
