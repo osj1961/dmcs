@@ -16,7 +16,8 @@
       or (and this definitely seems like less work) just do the subtraction <m>2024-1981 = 43</m>.</p>
 
     <p> By the way, one of the approaches above gives a wrong answer. Which? </p>
-    </introduction>
+    <p> Anyway, doesn't it seem like counting without having to literally do the counting is preferable when possible?  That's the aim of this chapter.</p>
+  </introduction>
 
   <!-- include sections -->
   <xi:include href="counting/rule0.ptx" />
