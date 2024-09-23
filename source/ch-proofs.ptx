@@ -10,6 +10,11 @@
   <!-- include sections -->
   <xi:include href="proofs/sec-philosophy.ptx" />
   <xi:include href="proofs/sec-even-odd.ptx" />
+  <xi:include href="proofs/sec-divisibility.ptx" />
+  <xi:include href="proofs/sec-floor.ptx" />
+  <xi:include href="proofs/sec-indirect.ptx" />
+  <xi:include href="proofs/sec-cases.ptx" />
+  
   
   
 </chapter>
