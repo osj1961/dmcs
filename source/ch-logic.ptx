@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<chapter xml:id="ch-logic" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title> <ndash/>Logic</title>
+
+  <introduction>
+    <p> Text before the first section. </p>
+  </introduction>
+
+  <!-- include sections -->
+  <xi:include href="logic/sec-truth_tables.ptx" />
+  <xi:include href="logic/sec-digital_logic_diagrams.ptx" />
+  <xi:include href="logic/sec-arguments.ptx" />
+  
+ 
+ 
+</chapter>
