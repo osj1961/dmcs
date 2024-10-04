@@ -1,3 +1,4 @@
+//
 // <!-- Managed automatically by PreTeXt authoring tools -->
 // (delete the above line to manage this file manually)
 //////////////////////////////////////////////////////////////
@@ -14,7 +15,7 @@
 {
   "name": "PreTeXt-Codespaces",
   
-  "image": "Open-Math-Book/pretext:full",
+  "dockerfile": "Dockerfile",
 
   // This Docker image includes some LaTeX support, but is still not to large.  Note that if you keep your codespace running, it will use up your GitHub free storage quota.  Additional options are listed below.
   // "image": "oscarlevin/pretext:small",

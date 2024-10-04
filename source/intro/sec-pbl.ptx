@@ -115,6 +115,20 @@
   </subsection>
   <subsection xml:id="subsec-graphs">
     <title>graphs</title>
-    
+      <p>
+        In <xref ref="fig-gallery"/> we see a floor plan for an Art museum. (The entrances/exits are omitted.)
+        Your challenge here is to determine whether or not it is possible to take a stroll through the museum,
+        beginning and ending in the same room, and passing through each doorway exactly once.
+      </p>
+
+      <p>
+        Either find such a path, or give a convincing reason why it can't be done.
+      </p>
+      
+    <figure xml:id="fig-gallery">
+      <caption>An Art museum with 6 galleries and 9 doorways in between them.</caption>
+      <image source="source/graphics/building" width="60%"/>
+    </figure>
+
   </subsection>
 </section>
