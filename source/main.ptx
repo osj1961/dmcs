@@ -14,7 +14,8 @@
     <!-- Include chapters -->
     <xi:include href="./ch-intro.ptx" />
     <xi:include href="./ch-numbers.ptx" />
-    <xi:include href="./ch-sets-logic.ptx" />
+    <xi:include href="./ch-sets.ptx" />
+    <xi:include href="./ch-logic.ptx" />
     <xi:include href="./ch-proofs.ptx" />
     <xi:include href="./ch-counting.ptx" />
 

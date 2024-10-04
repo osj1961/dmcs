@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<section xml:id="sec-pbl" xmlns:xi="http://www.w3.org/2001/XInclude">
+  <title>Some challenges</title>
+
+  <introduction>
+    <p>A good way to <q>get the feel</q> for discrete math is to investigate some discrete math topics via problems.</p>
+  </introduction>
+  <subsection xml:id="subsec-logic">
+    <title>logic puzzles</title>
+
+    <p>
+      Multiple choice questions like the following are common on exams like the GRE and the LSAT.
+    </p>
+
+    <p>
+    Six students, Ann, Bob, Carla, Daryl, Emma and Frank need to be assigned to 3 groups to work on projects together.
+    Ann and Carla refuse to work together.  Bob and Emma insist on working together.  If Carla and Daryl work together, they don't want anyone else in their group.
+    Group sizes can range from 1 to 3, but there need to be three groups and everyone must be in a group. </p>
+
+    <dl>
+      <li><title>Question 1</title>
+        <p> Suppose that Bob is in group 1 and that Carla and Daryl are in group 2.  Which of the following must be true? </p>
+        <p><ol>
+          <li>
+            <p>
+          Ann must be in group 1.   
+            </p>
+          </li>
+          <li>
+            <p>
+          Frank must be in group 3.
+            </p>
+          </li>
+          <li>
+            <p>
+          Emma must be in group 1.
+            </p>
+          </li>
+          <li>
+            <p>
+          Frank must be in group 2.
+            </p>
+          </li>
+          <li>
+            <p>
+          Ann and Frank must be in the same group.
+            </p>
+          </li>
+        </ol></p></li>
+      <li><title>Question 2</title>
+        <p> 
+          Suppose that Bob is in group 3 and students Carla and Daryl are 
+          in group 1, which of the following may be true?
+        </p>
+          
+        <p><ol>
+          <li>
+            <p>
+          Ann must be in group 1.   
+            </p>  
+          </li>
+          <li>
+            <p>
+          Frank is in group 1.
+            </p>
+          </li>
+          <li>
+            <p>
+          Emma is in group 2.
+            </p>
+          </li> 
+          <li>
+            <p>
+          Students Ann and Frank are in the same group.
+            </p>
+          </li>
+          <li>
+            <p>
+            Students Emma and Daryl are in the same group.
+            </p>
+          </li>
+        </ol></p>
+      </li>
+    </dl>
+  
+  </subsection>
+  <subsection xml:id="subsec-odds">
+    <title>odds</title>
+    <p>
+      
+    
+    <term>Poker</term> is a very popular card game.  If you're unfamiliar with playing cards maybe stop 
+    and consult the internet before reading on. In the most common variations of Poker each player has a 
+    <q>hand</q> -- a small set of cards that they can see and which are hidden from the other players.
+    Some hands beat other hands, and <mdash/> if gambling is involved <mdash/> the player with the best 
+    hand gets to keep the other people's money.  What makes one hand better than another?  While there is 
+    a slightly arbitrary ranking of hands due to the ordering of the cards (a pair of threes is better 
+    than a pair of twos) the primary ranking has to do with how likely the arrangement of cards in a hand is.
+    The lowest ranked hand is called <q>a pair</q> <mdash/> this means there are two cards having the same face value.
+    </p>  
+    <p>
+      For concreteness, we'll only consider hands consisting of 5 cards.  Which is better, having the hand known 
+      as <q>two pairs</q> or the hand known as <q>three-of-a-kind</q>?
+    </p>
+    <p>
+      There are multiple ways to answer this.  If you own a fresh deck of cards there is usually one 
+      (not used in playing) that gives the odds of each possible hand.  The information is also certainly 
+      available somewhere on the web.  You could actually shuffle cards and deal out (say) 100 hands and keep track 
+      of how many times each type comes up.  For our purposes, the best approach is to figure out how many of the
+      <m>2,598,960</m> possible hands<fn>A good question might be: where the heck did that number come from?</fn>
+      contain two pairs and how many contain three-of-a-kind.  Of course, you should probably give your answer a 
+      sanity check using using one of the earlier approaches. 
+    </p>
+  </subsection>
+  <subsection xml:id="subsec-graphs">
+    <title>graphs</title>
+    
+  </subsection>
+</section>

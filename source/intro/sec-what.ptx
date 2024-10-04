@@ -3,6 +3,23 @@
 <section xml:id="sec-what" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>What is "discrete math"?</title>
 
-  <p> Text of section. </p>
+  <p>
+    <blockquote>
+      Great fleas have little fleas upon their backs to bite 'em,<br/>
+And little fleas have lesser fleas, and so <foreign>ad infinitum</foreign>.
+      </blockquote>
+  </p>
+  <p>
+    Democratus was a Greek mathematician/philosopher.  Despite the name, he doesn't seem to have much to do with the 
+    notion of <term>democracy</term>.  He's most famous for promoting the atomic theory of matter.
+  </p>
+
+  <p>
+    Some things are clearly made up of smaller bits. Other things not so much<ellipsis/>  For instance, notice how 
+    salt is made up of individual grains, but water doesn't seem to be made of smaller components. Of course, you can 
+    crush a grain of salt and get a sort of salty powder, but if your vision is good enough you can discern that this 
+    powder is made up of tiny grains.  What happens if you grab some really good tweezers and crush one of those miniature grains?
+    Do you get micro grains that, if we crush them, produce nano grains?  Is it possible that 
+  </p>
 
 </section>

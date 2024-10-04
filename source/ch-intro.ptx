@@ -43,5 +43,5 @@ are a discrete collection. </p>
 
   <!-- include sections -->
   <xi:include href="intro/sec-what.ptx" />
-
+  <xi:include href="intro/sec-pbl.ptx" />
 </chapter>
