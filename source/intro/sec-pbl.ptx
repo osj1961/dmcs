@@ -127,7 +127,7 @@
       
     <figure xml:id="fig-gallery">
       <caption>An Art museum with 6 galleries and 9 doorways in between them.</caption>
-      <image source="source/graphics/building" width="60%"/>
+      <image source="images/building" width="60%"/>
     </figure>
 
   </subsection>
