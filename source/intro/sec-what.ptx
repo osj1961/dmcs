@@ -3,12 +3,19 @@
 <section xml:id="sec-what" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>What is "discrete math"?</title>
 
-  <p>
-    <blockquote>
-      Great fleas have little fleas upon their backs to bite 'em,<br/>
-And little fleas have lesser fleas, and so <foreign>ad infinitum</foreign>.
-      </blockquote>
-  </p>
+  <poem xml:id="poem-fleas" >
+    <!-- <title>Siphonaptera</title> -->
+    <author>Augustus De Morgan</author>
+    <stanza>
+      <line>Great fleas have little fleas upon their backs to bite 'em,</line>
+      <line>And little fleas have lesser fleas, and so <foreign>ad infinitum</foreign>.</line>
+    </stanza>
+    <stanza>
+      <line>And the great fleas themselves, in turn, have greater fleas to go on;</line>
+      <line>While these again have greater still, and greater still, and so on.</line>
+    </stanza>
+  </poem>
+
   <p>
     Democratus was a Greek mathematician/philosopher.  Despite the name, he doesn't seem to have much to do with the 
     notion of <term>democracy</term>.  He's most famous for promoting the atomic theory of matter.
@@ -21,7 +28,39 @@ And little fleas have lesser fleas, and so <foreign>ad infinitum</foreign>.
     powder is made up of tiny grains.  What happens if you grab some really good tweezers and crush one of those miniature grains?
     Do you get micro grains that, if we crush them, produce nano grains?  Is it possible that this sort of thing could go on
     forever?  Democritus said <q>no!</q> Materials can be broken up into smaller and smaller pieces, but there's a limit to
-    this process.  He called the smallest bits of matter <term>atoms</term>
+    this process.  He called the smallest bits of matter <term>atoms</term> <mdash/> which roughly means <q>uncuttable.</q>
+    These days we know that atoms actually are quite cuttable <mdash/> they're made up of protons, neutrons and electrons, 
+    and protons and neutron themselves can be further divided into quarks<ellipsis/>
   </p>
 
+  <p>
+    The intricacies of modern physics aren't really crucial here.  The main point is simply that there is an inherent 
+    granularity to the natural world.  There's a limit to how tiny things can be!  A similar phenomenon is observed in quantum theory, 
+    where it turns out that quantities like energy are actually restricted to take on only certain (discrete) values.  This is in marked contrast to 
+    the real numbers that Mathematicians (and Engineers!) use, where in between any two of them we can find infinitely many more.  Real quantities are infinitely
+    dissectable, whereas quantum numbers are either this value or that value and it's literally impossible for them to be anything in between.
+  </p>
+
+  <p>
+    The real world appears to be discrete!  It's certainly the case that when we model something physical 
+    in a computer, that model is discrete.  There's simply no way to store real numbers in a computer, because 
+    each real number would take up an infinite amount of memory!
+    (To be fair, some real numbers can be stored with no problems.  Eleven would fit into a single byte. But others,
+    like <m>\sqrt{17}</m> <mdash/> even though we just described it rather succinctly <mdash/> would need a byte for 
+    each digit in its decimal expansion. Since the decimal expansion is infinitely long, that's a lot of bytes!)
+  </p>
+
+  <p>
+    Now, all of the above isn't meant to imply that we can't deal effectively with real quantities in a computer.
+    For instance, the C language has a data type known as a <c>float</c> that uses four bytes of memory to store a so-called
+    <q>floating point</q> number.  For many use cases, all you need are <c>float</c>s.  If more precision, or larger 
+    (or smaller) values are needed there is the <c>double</c> data type which encodes a floating point number using 8 bytes.
+    More modern languages do even better, for example, Python has libraries that implement <em>arbitrary</em> 
+    precision floating point numbers.  But the point remains, if it's happening in a computer it is essentially discrete.
+  </p>
+
+  <p>
+    This is why budding computer scientists should study discrete mathematics, where the rules of the game are slightly different than
+    they are in the continuous domain.
+  </p>
 </section>
