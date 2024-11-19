@@ -132,4 +132,10 @@
 
   </subsection>
   <subsection xml:id="subsec-designs">
+
+    <figure xml:id="fig-tikz-test">
+      <caption>An Art museum with 6 galleries and 9 doorways in between them.</caption>
+      <image source="images/logic_diagram_1" width="60%"/>
+    </figure>
+  </subsection>
 </section>
