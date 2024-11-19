@@ -4,7 +4,14 @@
   <title> <ndash/> Numeration</title>
 
   <introduction>
-    <p> Text before the first section. </p>
+    <p> 
+      There is a cute (extremely dated <mdash/> but cute) video called <q>Little Twelvetoes</q> which was part of the 
+      Schoolhouse Rock series, first aired in 1973.  It's worth a look, here's a link to
+      <url href="https://www.youtube.com/watch?v=pqGyUvZP0Zg">YouTube</url>.  The point of the video is to teach young 
+      kids the twelves part of their multiplication tables, but an interesting side effect is that it gets us to think
+      about whether the numbers going from 1 to 10 is as natural a concept as we think.  Or is it just a side effect of us humans
+      having ten fingers on our hands?
+    </p>
   </introduction>
 
   <!-- include sections -->

@@ -3,6 +3,74 @@
 <section xml:id="sec-binary" xmlns:xi="http://www.w3.org/2001/XInclude">
   <title>Binary</title>
 
-  <p> Text of section. </p>
+  <p>Computers use binary.  Many of the earliest computers (machines that were way less powerful than your 
+    cellphone and weighed several tons) were analog.  That means that they used variable voltages to indicate
+    numbers and had complicated circuits using vacuum tubes<fn>Check out the 
+    <url href="https://en.wikipedia.org/wiki/Vacuum_tube">Wikipedia</url> article if you want a peek into the 
+    world of antique electronics.</fn> to do things like add or multiply voltages. Results could only be as 
+    accurate as our ability to measure voltages<ellipsis/>  Storage was a problem.  How do you store a voltage 
+    value and not have it leak away?  Still, engineers are very clever and they managed to get analog computers to
+    work rather well for solving real world problems over a suprising interval of time.  Those early machines all had 
+    names ending in <q>AC</q> (UNIVAC, ENIAC, etc) which stood for Analog Computer.  The germ of the idea 
+    that started the demise of the ACs was actually present in an even older technology.  Steam powered machines that
+    were used to weave silk so as to create cloth with images in it (not printed on, but woven into the fabric!) were 
+    created in the 1800s and controlled using punched cards.  The machine's actions were dictated based on where
+    certain locations in a piece of cardstock had been punched out or not.
+  </p>
+    
+  <p>
+    A lovely book on the subject is <q>Jacquard's Web: How a Hand-Loom Led to the Birth of the Information Age</q>
+    by James Essinger.
+  </p>
+
+  <p>
+    By the 1900s a variety of business machines and so-called teletypewriters had adopted the punch card idea.  
+    The salient point for us is this: a location on a sheet of cardstock can be punched out, or not <mdash/> that's 
+    binary (only two options!)
+  </p>
+
+  <p>
+    The switchover to digital computers that used binary logic <mdash/> voltages were either off (0 volts) or 
+    full-on (typically 5 volts) <mdash/> together with the discovery of transistors, lead to the relentless drive towards
+    miniaturization and ever-increasing capabilities that has revolutionized our world over the last half-century.
+  </p>
+
+  <p>
+    So a <q>computer person</q> really needs to get familiar with how binary arithmetic works.  Not that we need to be able 
+    to read and understand giant globs of binary (which look roughly like: 01100101000101110101001), there are tricks 
+    for quickly converting such a mess into human-readable form which we'll see in the next chapter; but philosophically, 
+    shouldn't we have a basic understanding of what's going on inside the machines we program?
+  </p>
+  
+  <p>
+    Before launching off into binary, let's think for a bit about how to count to 99.  You'll need a friend. 
+  </p>
+
+  <p>
+    Suppose Adolph and Blanca both have ten fingers.  Arbitrarily, we decide that each of Blanca's fingers 
+    are worth ten of Adolph's.  We begin counting.  When no one is holding any fingers up that's obviously 
+    zero. Adolph can successively hold up 1, 2, 3, <foreign>et cetera</foreign> fingers, but there's never 
+    a need for him to hold up more than 9 fingers <mdash/> because 10 is achieved by Blanca raising a 
+    single finger while Adolph lowers all of his.  Interestingly, this scheme we're describing (which is, 
+    pretty transparently, just ordinary decimal numeration) really only requires digits up through 9.  
+    Nine has a very special role in base-10 numbers <mdash/> it's the signal that the next position has 
+    to be incremented.  If Adolph and Blanca are both holding up nine fingers, we're
+    done; unless they can recruit a friend (whose name is probably Casimir) to hold up one finger while 
+    they drop all of theirs.  Yay! we made it to one hundred!
+  </p>
+
+  <p>
+    Binary, as you've probably heard, is base-2.  But just as in the above example, we don't need a digit 
+    to refer to 2 <mdash/> we only need digits 0 and 1. In the binary numeration scheme, 1 fills the same 
+    role that 9 does in base ten.  It's the signal that the digit in the next higher position should be 
+    incremented (if there isn't a next higher position we create one).  So, just like the number right 
+    after 999,999 is 1,000,000 the binary number after 1111 is 10000.
+  </p>
+
+  <p> 
+    While base-10 is natural for us 10-fingered humans, and base-8 would probably seem natural to octopuses, 
+    it's a bit hard to imagine a creature for whom base-2 would seem natural.  But hold on, there is a pretty 
+    reasonable way to show the digits 0 and 1 with our fingers <mdash/> if we raise a finger, that's a 1 and 
+    if we lower it that's a 0. 
 
 </section>
