@@ -132,10 +132,59 @@
 
   </subsection>
   <subsection xml:id="subsec-designs">
+    <p>
+    Block designs were originally created by Statisticians who wanted to scientifically analyze farm productivity.
+    Deciding which combinations of fertilizers, pesticides, plant varieties, watering regimens, 
+    <foreign>et cetera</foreign> will get you the most food out of each acre of land is a worthy goal.  Unfortunately,
+    it might involve doing hundreds 
+    of different experiments.  Another unfortunate complication: how do we know that the characteristics of the ground 
+    we're planting in are
+    uniform?  Maybe the soil, the rainfall, sunlight or other characteristics of the plots of land we're using influence 
+    the outcome more than the things we're trying to analyze!
+    </p>
+    <p>
+    The brute force approach would be to try every one of the treatments we're trying to analyze to every one of the plots.
+    That would result in a fair bit of complexity.  If there are 7 plots and 7 different treatments, we'd need 49 
+    separate sub-experiments!  The main idea in the field of experimental design is to do more with less.
+    </p>
+    <p>
+      Suppose there are indeed 7 treatments and 7 plots of land.  Can we find some way to do fewer than 49 experiments and still 
+      be able to figure out what's the best way to grow wheat?  Well, of course the answer is <q>Yes</q> or this subsection
+      wouldn't even exist!  The main problem here is to work out a way to do only 3 
+      experiments on each plot. Suppose the treatments are <m>\{A,B,C,D,E,F,G\}</m>.  Your task is to come up with 7 
+      collections, of three letters each, so that the following rules are obeyed:
+    </p>
 
-    <figure xml:id="fig-tikz-test">
-      <caption>An Art museum with 6 galleries and 9 doorways in between them.</caption>
-      <image source="images/logic_diagram_1" width="60%"/>
-    </figure>
-  </subsection>
+    <ol>
+      <li>Each pair of collections has exactly one letter in common.</li>
+      <li>Every letter occurs in exactly 3 different collections.</li>
+    </ol>
+
+    <p> There is a phrase, <q>without loss of generality</q> that is so 
+      common in math circles it often goes by the acronym <q>wlog</q>.
+      It means that you're throwing in an assumption that makes things more concrete, but it's
+      all good because the assumption you're making is the sort of thing that just amounts to
+      renaming things.
+    </p>
+
+    <p> In the current setting, we can say <q>Wlog, the first collection is <m>\{A,B,C\}</m></q> which
+      is fine since whatever the three treatments are that appear in the first collection, we could just 
+      relabel everything so that they become A, B and C.
+    </p>
+
+    <p> Similarly, the rules we are asked to follow assert that there will be exactly two other 
+      collections that contain A (and they can't also contain either B or C).  So, wlog, the first three 
+      collections are 
+    </p>
+
+      <md>
+        <mrow> \{A,B,C\} \amp \{A,D,E\} \amps \{A, F, G\} </mrow>
+      </md>
+
+    <p> This is pretty cool!  We're almost halfway done (wlog!) You just need to figure out
+      the remaining four sets.
+    </p>
+
+
+    </subsection>
 </section>
