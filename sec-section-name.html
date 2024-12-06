@@ -89,6 +89,12 @@ window.MathJax = {
 <link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
 <style>
+#ch-intro-2-2-2 { counter-set: ch-intro-2-2-2 0; }
+#ch-intro-2-2-2 > li::marker { content: ""counter(ch-intro-2-2-2,decimal)"."; }
+#ch-intro-2-2-2 > li { counter-increment: ch-intro-2-2-2; }
+#ch-intro-2-4-2 { counter-set: ch-intro-2-4-2 0; }
+#ch-intro-2-4-2 > li::marker { content: ""counter(ch-intro-2-4-2,decimal)"."; }
+#ch-intro-2-4-2 > li { counter-increment: ch-intro-2-4-2; }
 </style>
 </head>
 <body id="changeme" class="pretext book ignore-math">

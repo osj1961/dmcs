@@ -89,6 +89,21 @@ window.MathJax = {
 <link href="_static/pretext/css/colors_blue_red.css" rel="stylesheet" type="text/css">
 <link href="_static/pretext/css/setcolors.css" rel="stylesheet" type="text/css">
 <style>
+#ch-intro-2-2-2 { counter-set: ch-intro-2-2-2 0; }
+#ch-intro-2-2-2 > li::marker { content: ""counter(ch-intro-2-2-2,decimal)"."; }
+#ch-intro-2-2-2 > li { counter-increment: ch-intro-2-2-2; }
+#ch-intro-2-4-2 { counter-set: ch-intro-2-4-2 0; }
+#ch-intro-2-4-2 > li::marker { content: ""counter(ch-intro-2-4-2,decimal)"."; }
+#ch-intro-2-4-2 > li { counter-increment: ch-intro-2-4-2; }
+#subsec-logic-4-1-3-1 { counter-set: subsec-logic-4-1-3-1 0; }
+#subsec-logic-4-1-3-1 > li::marker { content: ""counter(subsec-logic-4-1-3-1,decimal)"."; }
+#subsec-logic-4-1-3-1 > li { counter-increment: subsec-logic-4-1-3-1; }
+#subsec-logic-4-2-3-1 { counter-set: subsec-logic-4-2-3-1 0; }
+#subsec-logic-4-2-3-1 > li::marker { content: ""counter(subsec-logic-4-2-3-1,decimal)"."; }
+#subsec-logic-4-2-3-1 > li { counter-increment: subsec-logic-4-2-3-1; }
+#subsec-designs-4 { counter-set: subsec-designs-4 0; }
+#subsec-designs-4 > li::marker { content: ""counter(subsec-designs-4,decimal)"."; }
+#subsec-designs-4 > li { counter-increment: subsec-designs-4; }
 </style>
 </head>
 <body id="changeme" class="pretext book ignore-math">
@@ -119,12 +134,66 @@ window.MathJax = {
 <div id="ptx-sidebar" class="ptx-sidebar"><nav id="ptx-toc" class="ptx-toc depth2"><ul class="structural contains-active toc-item-list">
 <li class="toc-item toc-frontmatter active"><div class="toc-title-box"><a href="frontmatter.html" class="internal"><span class="title">Front Matter</span></a></div></li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-intro.html" class="internal"><span class="codenumber">1</span> <span class="title">-- Introduction</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-what.html" class="internal"><span class="codenumber">1.1</span> <span class="title">What is "discrete math"?</span></a></div></li></ul>
+<div class="toc-title-box"><a href="ch-intro.html" class="internal"><span class="codenumber">1</span> <span class="title">– Introduction</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-what.html" class="internal"><span class="codenumber">1.1</span> <span class="title">What is "discrete math"?</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a href="sec-pbl.html" class="internal"><span class="codenumber">1.2</span> <span class="title">Some challenges</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-pbl.html#subsec-logic" class="internal"><span class="codenumber">1.2.1</span> <span class="title">logic puzzles</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-pbl.html#subsec-odds" class="internal"><span class="codenumber">1.2.2</span> <span class="title">odds</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-pbl.html#subsec-graphs" class="internal"><span class="codenumber">1.2.3</span> <span class="title">graphs</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a href="sec-pbl.html#subsec-designs" class="internal"><span class="codenumber">1.2.4</span> <span class="title"></span></a></div></li>
+</ul>
+</li>
+</ul>
 </li>
 <li class="toc-item toc-chapter">
-<div class="toc-title-box"><a href="ch-numbers.html" class="internal"><span class="codenumber">2</span> <span class="title">Numeration</span></a></div>
-<ul class="structural toc-item-list"><li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-section-name.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Binary</span></a></div></li></ul>
+<div class="toc-title-box"><a href="ch-numbers.html" class="internal"><span class="codenumber">2</span> <span class="title">– Numeration</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-binary.html" class="internal"><span class="codenumber">2.1</span> <span class="title">Binary</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-hex-octal.html" class="internal"><span class="codenumber">2.2</span> <span class="title">The CS bases: 8 &amp; 16</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-general.html" class="internal"><span class="codenumber">2.3</span> <span class="title">Generic bases</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-mod.html" class="internal"><span class="codenumber">2.4</span> <span class="title">Modular arithmetic</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-setsls.html" class="internal"><span class="codenumber">3</span> <span class="title">– Sets</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-roster.html" class="internal"><span class="codenumber">3.1</span> <span class="title">Roster form and set-builder notation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-operations.html" class="internal"><span class="codenumber">3.2</span> <span class="title">Set operations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-Venn.html" class="internal"><span class="codenumber">3.3</span> <span class="title">Venn diagrams</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-logic.html" class="internal"><span class="codenumber">4</span> <span class="title">–Logic</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-truth_tables.html" class="internal"><span class="codenumber">4.1</span> <span class="title">Truth tables</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-digital_logic_diagrams.html" class="internal"><span class="codenumber">4.2</span> <span class="title">Digital logic diagrams</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-arguments.html" class="internal"><span class="codenumber">4.3</span> <span class="title">Argument forms</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-proofs.html" class="internal"><span class="codenumber">5</span> <span class="title">– Mathematical proofs</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-philosophy.html" class="internal"><span class="codenumber">5.1</span> <span class="title">The philosophy of proofs</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-even-odd.html" class="internal"><span class="codenumber">5.2</span> <span class="title">Proofs about even and odd numbers</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-divisibility.html" class="internal"><span class="codenumber">5.3</span> <span class="title">Proofs about divisibility</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-floor.html" class="internal"><span class="codenumber">5.4</span> <span class="title">Proofs using floor and ceiling notation</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-indirect.html" class="internal"><span class="codenumber">5.5</span> <span class="title">Indirect proofs</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-cases.html" class="internal"><span class="codenumber">5.6</span> <span class="title">Proofs using cases and exhaustion</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a href="ch-counting.html" class="internal"><span class="codenumber">6</span> <span class="title">– Principles of counting</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-rule0.html" class="internal"><span class="codenumber">6.1</span> <span class="title">The zero-th rule of counting</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-multiplication.html" class="internal"><span class="codenumber">6.2</span> <span class="title">The multiplication rule</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-addition.html" class="internal"><span class="codenumber">6.3</span> <span class="title">The addition rule</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-perms.html" class="internal"><span class="codenumber">6.4</span> <span class="title">Permutations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-combs.html" class="internal"><span class="codenumber">6.5</span> <span class="title">Combinations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a href="sec-multisets.html" class="internal"><span class="codenumber">6.6</span> <span class="title">Multisets or perms and combs with repetition</span></a></div></li>
+</ul>
 </li>
 <li class="toc-item toc-backmatter"><div class="toc-title-box"><a href="backmatter.html" class="internal"><span class="title">Backmatter</span></a></div></li>
 </ul></nav></div>
@@ -135,7 +204,7 @@ window.MathJax = {
 <div class="author-name">Joe Fields</div>
 <div class="author-info">Department of Mathematics<br>Southern Connecticut State University</div>
 </div>
-<div class="date">August 29, 2024</div>
+<div class="date">December 6, 2024</div>
 <nav class="summary-links"><ul><li><a href="frontmatter-2.html" class="internal"><span class="title">Colophon</span></a></li></ul></nav></section></div>
 <div class="ptx-content-footer">
 <a class="previous-button button" href="my-great-book.html" title="Previous"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cb;</span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5ce;</span><span class="name">Top</span></a><a class="next-button button" href="frontmatter-2.html" title="Next"><span class="name">Next</span><span class="icon material-symbols-outlined" aria-hidden="true">&#xe5cc;</span></a>
