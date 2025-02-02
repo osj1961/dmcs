@@ -73,4 +73,14 @@
     reasonable way to show the digits 0 and 1 with our fingers <mdash/> if we raise a finger, that's a 1 and 
     if we lower it that's a 0. 
   </p>
+  <p>
+    Binary finger counting is a way of counting from 0 to 31 on the fingers of one 
+    hand.  Notice that that's considerably better than the 0 to 5 range one gets 
+    with the usual &quot;counting on yer fingers&quot; method.
+  </p>
+  <p>
+    We need each finger (counting the thumb as a finger too) to represent a power of 2.  Your 
+    thumb will be 1 -- which is <m>2^0</m>.  You're forefinger will be 2 or <m>2^1</m>.  Keep 
+    going like that.  Your pinky will be <m>16 = 2^4</m>.
+  </p>
 </section>
