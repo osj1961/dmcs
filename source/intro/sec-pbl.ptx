@@ -178,7 +178,7 @@
     </p>
 
       <md>
-        <mrow> \{A,B,C\} \amp \{A,D,E\} \amps \{A, F, G\} </mrow>
+        <mrow> \{A,B,C\} \; \&amp; \; \{A,D,E\} \; \&amp; \; \{A, F, G\} </mrow>
       </md>
 
     <p> This is pretty cool!  We're almost halfway done (wlog!) You just need to figure out
