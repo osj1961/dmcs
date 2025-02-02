@@ -85,6 +85,6 @@
   </p>
   <figure xml:id="fig-binary-hand">
       <caption>In binary finger counting each finger's value is a power of two.</caption>
-      <image source="images/hand" width="60%"/>
+      <image source="images/hand.png" width="60%"/>
     </figure>
 </section>
